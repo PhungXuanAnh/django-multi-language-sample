@@ -207,3 +207,4 @@ https://djangobook.com/localization-create-language-files/
 https://djangobook.com/internationalization-python-code/
 https://djangobook.com/internationalization-template-code/
 https://djangobook.com/internationalization-javascript-code/
+http://www.marinamele.com/taskbuster-django-tutorial/internationalization-localization-languages-time-zones
