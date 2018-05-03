@@ -203,5 +203,7 @@ Use can access English version by visit http://127.0.0.1:8000/en/admin/
 
 ### 6. References
 https://docs.djangoproject.com/en/2.0/topics/i18n/translation/
-
 https://djangobook.com/localization-create-language-files/
+https://djangobook.com/internationalization-python-code/
+https://djangobook.com/internationalization-template-code/
+https://djangobook.com/internationalization-javascript-code/

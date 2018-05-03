@@ -11,10 +11,7 @@
     <h1 id="site-name">
         <a href="{% url 'admin:index' %}"> 
             {% comment %} Welcom to django admin dashboard {% endcomment %}
-            {% comment %} {% trans "Welcom to django admin dashboard" %} {% endcomment %}
-            {% blocktrans %}
-                "Welcom to django admin dashboard"
-            {% endblocktrans %}
+            {% trans "Welcom to django admin dashboard" %}
         </a>
     </h1>
 {% endblock %}
