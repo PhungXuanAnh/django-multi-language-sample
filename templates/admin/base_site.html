@@ -4,14 +4,17 @@
 
 {% block title %}
     {% comment %} Title Admin Panel {% endcomment %}
-    {% trans "Title Admin Panel" %}
+    {% comment %} {% trans "Title Admin Panel" %} {% endcomment %}
 {% endblock %}
 
 {% block branding %}
     <h1 id="site-name">
         <a href="{% url 'admin:index' %}"> 
             {% comment %} Welcom to django admin dashboard {% endcomment %}
-            {% trans "Welcom to django admin dashboard" %}
+            {% comment %} {% trans "Welcom to django admin dashboard" %} {% endcomment %}
+            {% blocktrans %}
+                "Welcom to django admin dashboard"
+            {% endblocktrans %}
         </a>
     </h1>
 {% endblock %}
