@@ -15,6 +15,9 @@
 In settings.py, add the following(In my case I created folder named locale inside BASE_DIR you can choose another location and specify the location in settings.py).
 
 ```python
+
+from django.utils.translation import gettext_lazy as _
+
 LANGUAGE_CODE = 'vi-VI'
 
 TIME_ZONE = 'UTC'
@@ -169,7 +172,7 @@ Visit http://127.0.0.1:8000/vi/admin/ to view/access the Vietnam based Admin sit
 
 Create **`middleware.py`** in project directory as [link](https://github.com/xuananh1991/django_translation_sample/blob/master/django_translation_sample/middleware.py)
 
-Change in `settings.py`:
+Modify in `settings.py`:
 
 - Add midlleware: 
 
