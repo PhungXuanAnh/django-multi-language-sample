@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-03 16:04+0700\n"
+"POT-Creation-Date: 2018-05-03 16:08+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,20 +44,12 @@ msgstr "Ten lua chon"
 msgid "Choice"
 msgstr "Lua chon"
 
-#: polls/templates/polls/index.html:3
-msgid "Hello"
-msgstr ""
-
-#: polls/templates/polls/index.html:4
-msgid "Welcome to my site."
-msgstr ""
-
 #: templates/admin/base_site.html:17
 msgid "Welcom to django admin dashboard"
 msgstr "Chao mung den voi bang dieu khien django admin"
 
-#~ msgid "NEW TITLE"
-#~ msgstr "TIEU DE MOI"
+#~ msgid "Hello"
+#~ msgstr "Xin chao"
 
-#~ msgid "Title Admin Panel"
-#~ msgstr "Tieu de trang admin"
+#~ msgid "Welcome to my site."
+#~ msgstr "Chao mung den voi trang web cua toi"
