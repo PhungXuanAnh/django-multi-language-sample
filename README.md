@@ -68,7 +68,7 @@ change to:
 verbose_name = _("Question")
 ```
 
-[Click here for sample file]()
+[Click here for sample file](https://github.com/xuananh1991/django_translation_sample/blob/master/polls/models.py)
 
 ### 3. Change templates for translate
 
@@ -88,7 +88,7 @@ change to:
 {% trans "Welcom to django admin dashboard" %}
 ```
 
-[Click here for sample file]()
+[Click here for sample file](https://github.com/xuananh1991/django_translation_sample/blob/master/templates/admin/base_site.html)
 
 ### 4. Make translate files
 
@@ -110,7 +110,7 @@ django-admin.py makemessages -l es
 django-admin.py makemessages -l pt
 ```
 
-[Click here to check the language codes]()
+[Click here to check the language codes](https://github.com/xuananh1991/django_translation_sample/blob/master/Python%20Tuple%20Lists%20with%20language%20codes%20(as%20of%20ISO%20639-1)%20and%20country%20codes%20(as%20of%20ISO%203166).md)
 
 or run command for make all language:
 
@@ -136,7 +136,7 @@ msgstr "Chao mung den voi bang dieu khien django admin"
 ```
 
 - `msgid` contain the origin text 
-- `msgstr` will contain translated text, you must fill your text here
+- `msgstr` you must fill your translated text here
 
 
 Now run the compilemessages from the same directory as mentioned above, it will generate `django.mo` file.
@@ -167,7 +167,7 @@ Visit http://127.0.0.1:8000/vi/admin/ to view/access the Vietnam based Admin sit
 
 ### 5. Force default language for site
 
-Create **`middleware.py`** in project directory as [link]()
+Create **`middleware.py`** in project directory as [link](https://github.com/xuananh1991/django_translation_sample/blob/master/django_translation_sample/middleware.py)
 
 Add middleware to `settings.py`
 
