@@ -1,0 +1,19 @@
+{% extends "admin/base.html" %}
+
+{% load i18n %}
+
+{% block title %}
+    {% comment %} Title Admin Panel {% endcomment %}
+    {% trans "Title Admin Panel" %}
+{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">
+        <a href="{% url 'admin:index' %}"> 
+            {% comment %} Welcom to django admin dashboard {% endcomment %}
+            {% trans "Welcom to django admin dashboard" %}
+        </a>
+    </h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

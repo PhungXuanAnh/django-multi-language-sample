@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-02 16:38+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: django_translation_sample/settings.py:132
+#, fuzzy
+#| msgid "Vietnam"
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: django_translation_sample/settings.py:133
+msgid "English"
+msgstr "Tieng Anh"
+
+#: polls/models.py:5
+msgid "Question name"
+msgstr "Ten cau hoi"
+
+#: polls/models.py:11 polls/models.py:12
+msgid "Question"
+msgstr "Cau hoi"
+
+#: polls/models.py:16
+msgid "Choice name"
+msgstr "Ten lua chon"
+
+#: polls/models.py:22 polls/models.py:23
+msgid "Choice"
+msgstr "Lua chon"
+
+#: templates/admin/base_site.1.html:5
+msgid "NEW TITLE"
+msgstr "TIEU DE MOI"
+
+#: templates/admin/base_site.1.html:12 templates/admin/base_site.html:16
+msgid "Welcom to django admin dashboard"
+msgstr "Chao mung den voi bang dieu khien django admin"
+
+#: templates/admin/base_site.html:7
+msgid "Title Admin Panel"
+msgstr "Tieu de trang admin"
