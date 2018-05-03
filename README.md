@@ -169,13 +169,23 @@ Visit http://127.0.0.1:8000/vi/admin/ to view/access the Vietnam based Admin sit
 
 Create **`middleware.py`** in project directory as [link](https://github.com/xuananh1991/django_translation_sample/blob/master/django_translation_sample/middleware.py)
 
-Add middleware to `settings.py`
+Change in `settings.py`:
+
+- Add midlleware: 
 
 ```python
 MIDDLEWARE = [
     'django_translation_sample.middleware.force_default_language_middleware',
     'django.middleware.locale.LocaleMiddleware',
 ```
+
+- change language code to language that you want to set as default
+ 
+```python
+LANGUAGE_CODE = 'vi'
+```
+
+
 
 **Note:** *`django_translation_sample.middleware.force_default_language_middleware`* must be declared before *`django.middleware.locale.LocaleMiddleware`*
 
